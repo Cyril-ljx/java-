@@ -1,0 +1,21 @@
+spring:
+  Application:
+    name: demo1
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/stu
+    driverClassName: com.mysql.jdbc.Driver
+neu:
+  className: java实训
+  count: 51
+  teacher: {name: 李端, age: 31, skill:[java,Spring]}
+server:
+  port: 8888 #配置tomcat端口号
+#mybatis的相关配置
+mybatis:
+  #mapper配置文件
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.lingnan.demo1.entity
+  configuration:
+    map-underscore-to-camel-case: true
