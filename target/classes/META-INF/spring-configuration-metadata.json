@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "neu.teacher",
+      "type": "com.lingnan.demo1.entity.Teacher",
+      "sourceType": "com.lingnan.demo1.entity.Teacher"
+    }
+  ],
+  "properties": [
+    {
+      "name": "neu.teacher.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.lingnan.demo1.entity.Teacher",
+      "defaultValue": 0
+    },
+    {
+      "name": "neu.teacher.name",
+      "type": "java.lang.String",
+      "sourceType": "com.lingnan.demo1.entity.Teacher"
+    },
+    {
+      "name": "neu.teacher.skill",
+      "type": "java.lang.String[]",
+      "sourceType": "com.lingnan.demo1.entity.Teacher"
+    }
+  ],
+  "hints": []
+}
