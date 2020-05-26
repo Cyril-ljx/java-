@@ -8,7 +8,7 @@ spring:
     driverClassName: com.mysql.jdbc.Driver
 neu:
   className: java实训
-  count: 5100
+  count: 51
   teacher: {name: 李端, age: 31, skill:[java,Spring]}
 server:
   port: 8888 #配置tomcat端口号
